@@ -1,0 +1,107 @@
+body {
+    background:rgb(120, 120, 189);
+    background-image: url(https://i.pinimg.com/736x/3c/1d/3f/3c1d3f3d6884af36aceb2cc335af830b.jpg);
+    background-size: cover;
+}
+
+.boxheader {
+    max-width: 800px;
+    padding: 30px;
+    margin: 50px auto;
+
+    border-radius: 10px;
+    background-color: rgba(189, 191, 223, 0.8);
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boxtorso {
+    max-width: 800px;
+    padding: 30px;
+    margin: 50px auto;
+
+    border-radius: 10px;
+    background-color: rgba(189, 191, 223, 0.8);
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scrollboxautomatic {
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    overflow-x: auto;
+}
+.scrollboxautomatic::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 20s linear infinite;
+    padding-right: 1em;
+}
+
+.LifeIsStrange2 {
+    flex: 0 0 5em;
+    height: 5em;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-image: url(https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08124_00/1/i_78eb92c85379dbf319403736bdd17216bab71b95c2c04101ec1199986ef45313/i/icon0.png);
+    background-size: cover;
+}
+.LifeIsStrangeBeforeTheStorm{
+    flex: 0 0 5em;
+    background-size: cover;
+    height: 5em;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsJX09cX42xjA0MgaBVYXgOJn0AEiOC4-SaiReLMvokUaUslS9tFwf0FKX&s=10);
+}
+ .RedDeadRedemption2{
+    flex: 0 0 5em;
+    background-size: cover;
+    height: 5em;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-image: url(https://www.gtabase.com/images/red-dead-redemption-2/articles/red-dead-redemption-2-soundtrack-article-image-rdr2.jpg);
+}
+.LifeIsStrange1{
+    flex: 0 0 5em;
+    background-size: cover;
+    height: 5em;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-image: url(https://image.api.playstation.com/gs2-sec/acpkgo/prod/CUSA01442_00/30/i_8d29bc9dc65290ef70267e306c51a79b541fe8c52b7532b4a58927fcbe302aa0/i/icon0.png);
+}
+.Minecraft{
+    flex: 0 0 5em;
+    background-size: cover;
+    height: 5em;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-image: url(https://i.pinimg.com/originals/36/ce/e4/36cee4e319e84e1640c5ae60ac1fda13.png?nii=t);
+}
+.Roblox{
+    flex: 0 0 5em;
+    height: 5em;
+    background-size: cover;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1e/Roblox_Logo_2025.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original);
+}
+
+@keyframes spin {
+    from {translate: 0;}
+    to {translate: -100%;}
+    
+}
