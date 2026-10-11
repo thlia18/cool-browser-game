@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+body {
+    background-color: #c8b1b1cd;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 24px 12px;
+    color: #333;
+    overflow: hidden;
+}
+
+.body-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Magazine Flipbook */
+
+#magazine-container {
+    width: 100%;
+    max-width: 800px;
+    height: 550px;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: auto;
+}
+
+.Cover {
+    background: linear-gradient(120deg, #1a1a1a, #999494);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.Cover h1 {
+    font-size: 3rem;
+    margin-bottom:10px;
+    letter-spacing: 3px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.Page {
+    background-color: #fdfbf7;
+    border: 1px solid #dcd6cd;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    box-shadow: none;
+}
+
+.Page h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #222;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.Page h2 {
+    font-size: 1.1rem;
+    margin: 8px 0;
+    color: #555;
+    font-weight: normal;
+}
+
+.Page p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+
+/*Flip part of Magazine*/
+
+button {
+    background: #908080;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+}
+
+button:hover {
+    background: #6b4f4f;
+}
+
+span#page-info {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
